@@ -193,6 +193,10 @@ textarea:hover{
     color: #fff;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
 
 @media (max-width:1024px){
     section div div h1{
