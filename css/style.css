@@ -132,6 +132,40 @@ textarea:hover{
     color: #EAB000;
 }
 
+.social-icons span{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 10px 5px;
+    cursor: pointer;
+}
+.social-icons span:hover{
+    border: 1px solid #EAB000;
+    color: #EAB000;
+}
+
+.team-member img{
+    width: 100%;
+    height: 250px;
+}
+.team-member:hover{
+    background-color: #222;
+    color: #EAB000;
+    opacity: .9;
+}
+
+.social-icons-on-card span{
+    border: 1px solid #EAB000;
+    color: #EAB000;
+    padding: 3px 6px 3px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.social-icons-on-card span:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
 @media (max-width:1024px){
     .carousel-container{
         height: 60vh;
