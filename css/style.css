@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .owl-carousel img{
@@ -45,7 +47,7 @@
     border-radius: 0;
     padding: 10px 30px 10px;
     background-color: #fff;
-    color: #EAB000;
+    color: #f37039;
 }
 
 
@@ -53,7 +55,7 @@
     border: 1px solid transparent;
 }
 .media .img-hvr:hover{
-    border: 1px solid #EAB000;
+    border: 1px solid #f37039;
     cursor: pointer;
 }
 .media .media-body h6{
@@ -106,13 +108,13 @@
 }
 
 .on-hvr-color:hover{
-    color: #EAB000;
+    color: #f37039;
 }
 .on-hvr-link-color{
     color: #fff;
 }
 .on-hvr-link-color:hover{
-    color: #EAB000;
+    color: #f37039;
 }
 
 input[type='text'],input[type='email']{
@@ -149,8 +151,12 @@ textarea:hover{
     font-weight: bold;
 }
 .custom-btn:hover{
-    background-color: #222;
-    color: #EAB000;
+    /* background-color: #fff;
+    color: #f37039;
+    border: 1px solid #f37039; */
+    background-color: #f37039;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 .social-icons span{
@@ -160,15 +166,15 @@ textarea:hover{
     cursor: pointer;
 }
 .social-icons span:hover{
-    border: 1px solid #EAB000;
-    color: #EAB000;
+    border: 1px solid #f37039;
+    color: #f37039;
 }
 
 .team-member{
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid #EAB000;
+    border-bottom: 1px solid #f37039;
 }
 .team-member img{
     width: 100%;
@@ -176,13 +182,13 @@ textarea:hover{
 }
 .team-member:hover{
     background-color: #222;
-    color: #EAB000;
+    color: #f37039;
     opacity: .9;
 }
 
 .social-icons-on-card span{
-    border: 1px solid #EAB000;
-    color: #EAB000;
+    border: 1px solid #f37039;
+    color: #f37039;
     padding: 3px 6px 3px;
     cursor: pointer;
     margin-left: 10px;
