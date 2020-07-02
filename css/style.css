@@ -46,7 +46,7 @@
     border-radius: 0;
     padding: 10px 30px 10px;
     background-color: #fff;
-    color: #f37039;
+    color: #696969;
 }
 
 
@@ -54,7 +54,7 @@
     border: 1px solid transparent;
 }
 .media .img-hvr:hover{
-    border: 1px solid #f37039;
+    border: 1px solid #696969;
     cursor: pointer;
 }
 .media .media-body h6{
@@ -107,13 +107,13 @@
 }
 
 .on-hvr-color:hover{
-    color: #f37039;
+    color: #696969;
 }
 .on-hvr-link-color{
     color: #fff;
 }
 .on-hvr-link-color:hover{
-    color: #f37039;
+    color: #696969;
 }
 
 input[type='text'],input[type='email']{
@@ -151,9 +151,9 @@ textarea:hover{
 }
 .custom-btn:hover{
     /* background-color: #fff;
-    color: #f37039;
-    border: 1px solid #f37039; */
-    background-color: #f37039;
+    color: #696969;
+    border: 1px solid #696969; */
+    background-color: #696969;
     color: #fff;
     border: 1px solid #fff;
 }
@@ -169,29 +169,29 @@ textarea:hover{
     cursor: pointer;
 }
 .social-icons span:hover{
-    border: 1px solid #f37039;
-    color: #f37039;
+    border: 1px solid #696969;
+    color: #696969;
 }
 
 .team-member{
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid #f37039;
+    border-bottom: 1px solid #696969;
 }
 .team-member img{
-    width: 100%;
-    height: 200px;
+    width: 80%;
+    height: 150px;
 }
 .team-member:hover{
     background-color: #222;
-    color: #f37039;
+    color: #fff;
     opacity: .9;
 }
 
 .social-icons-on-card span{
-    border: 1px solid #f37039;
-    color: #f37039;
+    border: 1px solid #696969;
+    color: #696969;
     padding: 3px 6px 3px;
     cursor: pointer;
     margin-left: 10px;
@@ -237,7 +237,7 @@ textarea:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 .section-sub-heading{
-    color: #f37039;
+    color: #696969;
     font-size: large;
 }
 @media (max-width:1024px){
