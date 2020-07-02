@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .owl-carousel img{
@@ -28,7 +28,6 @@
     padding: 0;
 }
 .carousel-container h1{
-    font-family: 'Lalezar', cursive;
     font-size: 50px;
     padding-bottom: 0;
 }
@@ -159,6 +158,10 @@ textarea:hover{
     border: 1px solid #fff;
 }
 
+.nav-link{
+    font-size: 14px;
+}
+
 .social-icons span{
     border: 1px solid #fff;
     color: #fff;
@@ -178,7 +181,7 @@ textarea:hover{
 }
 .team-member img{
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 .team-member:hover{
     background-color: #222;
@@ -203,10 +206,49 @@ textarea:hover{
     cursor: pointer;
 }
 
+.section-heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #404040;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-paragraph{
+    color: #707070;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+}
 
+.top-banner-qots{
+    font-size: large;
+    font-weight: bold;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-banner-paragraph{
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-sub-heading{
+    color: #f37039;
+    font-size: large;
+}
 @media (max-width:1024px){
-    section div div h1{
+    .top-banner-paragraph{
         font-size: 20px;
+    }
+    .section-heading{
+        font-size: 25px;
+    }
+    .section-paragraph{
+        font-size: 15px;
     }
     .carousel-container{
         height: 60vh;
@@ -217,7 +259,17 @@ textarea:hover{
     .carousel-container p{
         font-size: 10px;
     }
+    .section-sub-heading{
+        font-size: 18px;
+    }
     .section-1{
         height: 80vh;
+    }
+
+    .Quotes-title{
+        font-size: 20px;
+    }
+    .Quotation-line{
+        font-size: 17px;
     }
 }
