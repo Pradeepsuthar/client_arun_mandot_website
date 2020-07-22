@@ -46,7 +46,7 @@
     border-radius: 0;
     padding: 10px 30px 10px;
     background-color: #fff;
-    color: #696969;
+    color: #272727;
 }
 
 
@@ -153,7 +153,7 @@ textarea:hover{
     /* background-color: #fff;
     color: #696969;
     border: 1px solid #696969; */
-    background-color: #696969;
+    background-color: #242424;
     color: #fff;
     border: 1px solid #fff;
 }
@@ -177,7 +177,7 @@ textarea:hover{
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 1px solid #696969;
+    /* border-bottom: 1px solid #696969; */
 }
 .team-member img{
     width: 80%;
@@ -187,6 +187,7 @@ textarea:hover{
     background-color: #222;
     color: #fff;
     opacity: .9;
+    cursor: pointer;
 }
 
 .social-icons-on-card span{
@@ -202,6 +203,9 @@ textarea:hover{
     color: #fff;
 }
 
+.card-title{
+    font-weight: bold;
+}
 .cursor-pointer{
     cursor: pointer;
 }
@@ -279,4 +283,9 @@ textarea:hover{
     .Quotation-line{
         font-size: 17px;
     }
+    .center-on-mobile{
+        text-align: center;
+        align-items: center;
+    }
 }
+
